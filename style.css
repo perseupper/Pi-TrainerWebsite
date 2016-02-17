@@ -1,0 +1,45 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+.btn-button-name, .btn-button-name:link, .btn-button-name:visited {
+    background-color: transparent;
+    border-radius: 2;
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    border-color:#FFFFFF;
+}
+.btn-button-name:active, .btn-button-name:hover {
+    color: transparent;
+    background-color:#FFFFFF;
+}
+.purpleBox{
+	/*background: #8c57c1; /* For browsers that do not support gradients */
+   	/*background:#563d7c;*/
+    background: -webkit-linear-gradient(#563d7c,#6f5499);
+    background: -o-linear-gradient(#563d7c,#6f5499); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#563d7c,#6f5499); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#563d7c,#6f5499); /* Standard syntax */
+   
+    text-align: center;
+	height:325px;padding-top: 50px;*/
+}
+.options{
+	width:150px;
+	height:125px;
+	margin:10px;
+	border:5px solid white;
+	padding:5px;
+	border-radius:25px;
+}
+.buttonOptions{
+	border-spacing:10px;
+	width:150px;
+}
+
+#navcontainer ul li { display: inline;vertical-align:middle }
+/* cellspacing */
+table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
+
+/* align (center) */
+table { margin: 0 auto; }
